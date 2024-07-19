@@ -7,6 +7,7 @@ import Login from './components/Login';
 import { useAuth } from './context/AuthContext';
 import { useTodos } from './context/TodoContext';
 
+
 const App = () => {
   const { user, logout } = useAuth();
   const { todos } = useTodos();
