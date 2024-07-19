@@ -34,7 +34,7 @@ const Login = () => {
             placeholder="Password"
             className="p-2 border rounded mb-2 w-full"
           />
-          <p className='text-slate-700'>Username: todo | Password: todo@123</p>
+          <p className='text-slate-500 text-sm'>Username: todo | Password: todo@123</p>
           {error && <p className="text-red-500">{error}</p>}
           <button type="submit" className="p-2 bg-blue-500 text-white rounded w-full">
             Login
